@@ -5,14 +5,20 @@
 	"main": "app.js",
 	"type": "module",
 	"scripts": {
-		"dev": "nodemon app.js"
+		"dev": "nodemon app.js",
+		"start": "node app.js"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/fawwaz37/ToDoList-Application.git"
 	},
-	"keywords": [],
-	"author": "",
+	"keywords": [
+		"todo",
+		"mongoose",
+		"express",
+		"mongodb"
+	],
+	"author": "zekais",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/fawwaz37/ToDoList-Application/issues"

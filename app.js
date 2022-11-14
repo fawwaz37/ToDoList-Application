@@ -38,7 +38,10 @@ app.use(function (req, res, next) {
 });
 
 app.get("/", (req, res) => {
-	res.send("okee");
+	res.status(200).send({
+		status: res.statusCode,
+		message: `STATUS OK`,
+	});
 });
 
 app.use("/users", usersRouter);
