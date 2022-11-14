@@ -149,7 +149,7 @@ class TodoController extends TodoDB {
 				if (deletes) {
 					return res.status(200).send({
 						status: res.statusCode,
-						message: `Succes Delete Todo`,
+						message: `Succes Delete Todo With ID : ${id}`,
 						data: { list: deletes.todo },
 					});
 				} else {
