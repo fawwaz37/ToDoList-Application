@@ -2,6 +2,8 @@
 
 Membuat Web Service & RESTful API for ToDoList Application dengan menggunakan database mongodb
 
+---
+
 ## Domain
 
 **PUBLIC_URL :** `https://todos-zekais.herokuapp.com`
@@ -27,9 +29,13 @@ Membuat Web Service & RESTful API for ToDoList Application dengan menggunakan da
     | Delete All User Todo |      /todos/      | DELETE |
     |   Delete One Todo    | /todos/:\_id-todo | DELETE |
 
+---
+
 ### Endpoint User
 
 Beberapa Endpoint User Seperti Register, Login dan Logout
+
+---
 
 #### **Register/Sign Up**
 
@@ -53,6 +59,8 @@ Beberapa Endpoint User Seperti Register, Login dan Logout
     }
     ```
 
+---
+
 #### **Login/Sign Up**
 
 -   **Method : POST**
@@ -75,6 +83,8 @@ Beberapa Endpoint User Seperti Register, Login dan Logout
     }
     ```
 
+---
+
 #### **Logout**
 
 -   **Method : GET**
@@ -89,9 +99,13 @@ Beberapa Endpoint User Seperti Register, Login dan Logout
     }
     ```
 
+---
+
 ### Endpoint TODO
 
 Beberapa Endpoint Todo Seperti Create Todo, Get Detail Todo, dll
+
+---
 
 #### **Create Todo**
 
@@ -123,6 +137,8 @@ Beberapa Endpoint Todo Seperti Create Todo, Get Detail Todo, dll
     }
     ```
 
+---
+
 #### **Get All User Todo**
 
 -   **Method : GET**
@@ -147,6 +163,8 @@ Beberapa Endpoint Todo Seperti Create Todo, Get Detail Todo, dll
     }
     ```
 
+---
+
 #### **Get Detail Todo**
 
 -   **Method : GET**
@@ -170,6 +188,8 @@ Beberapa Endpoint Todo Seperti Create Todo, Get Detail Todo, dll
     	}
     }
     ```
+
+---
 
 #### **Update Todo**
 
@@ -205,6 +225,8 @@ Beberapa Endpoint Todo Seperti Create Todo, Get Detail Todo, dll
     }
     ```
 
+---
+
 #### **Delete One Todo**
 
 -   **Method : DELETE**
@@ -230,6 +252,8 @@ Beberapa Endpoint Todo Seperti Create Todo, Get Detail Todo, dll
     	}
     }
     ```
+
+---
 
 #### **Delete All Todo**
 
